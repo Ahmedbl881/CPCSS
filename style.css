@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+*{
+box-sizing: content-box;
+margin: 0;
+padding: 0;
+
+
+}
+li ,a ,button{
+font-family:"montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: rgb(26, 26, 26);
+text-decoration: none;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+
+}
+.logo{
+    cursor: pointer;
+ margin-right:30px ;
+ 
+}
+.nav__links{
+    list-style: none;
+    display: flex;
+    background-color: #252525;
+ 
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px  20px;
+}
+.nav__links li a{
+color: white;
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a :hover  {
+
+  color: #0088a9;
+}
+button{
+padding: 9px 25px;
+background-color: cornflowerblue;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+
+}
+button :hover{
+    background-color: cornflowerblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    }
+    .footer-main-div{
+        width: 100%;
+        height: auto;
+        margin:auto ;
+        padding: 80px 0px;
+        background: #272727;
+        
+       margin-top: 411px;
+        }
+        
+        .footer-social-icons{
+            width: 100%;
+            height: auto;
+            margin:auto ;
+        }
+        .footer-social-icons ul {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+    
+        .footer-social-icons ul li{
+       display: inline-block;
+    width: 50px; 
+    height:50px ;
+    margin:0px 20px ;
+    border-radius: 200% ;  
+    background: #0088a9;
+    }
+    .footer-social-icons ul li a {
+    color: #050505;
+    font-size: 25px;
+    
+    
+    
+    }
+    .footer-social-icons ul li a i{
+        line-height: 50px;
+    } 
+    .footer-menu-one{
+        width: 100%; 
+        height:auto ;
+        margin:auto ;
+        margin-top: -40px;
+        letter-spacing: 2px;
+    }
+    .footer-menu-one ul {
+    margin: 0px;
+    padding:0px ;
+    text-align: center;
+    }
+    .footer-menu-one ul li  {
+    display: inline-block;
+    margin: 0px 15px;
+    }
+    .footer-menu-one ul li a {
+    font-family:arial ;
+    font-size:15px ;
+    font-weight:600 ;
+    color:rgb(250, 249, 249) ;
+    text-transform: uppercase;
+    margin-top:-100px ;
+    
+    
+    }
+    .footer-menu-one ul li a :hover{
+        color: #272727;
+    }
+    a{
+        text-decoration: none;
+        outline-style: none;
+    }
+    .footer-bottom{
+    width:100% ;
+    height:auto ;
+    margin: auto;
+    background: #0088a9;
+    padding:10px ;
+    bottom: 1;
+        position: absolute;
+    }
+    .footer-bottom p {
+        font-family: arial;
+        font-size: 14px;
+    text-align: center;
+    color: #fdfcfc;
+    font-weight: 600;
+    letter-spacing: 2px;
+   
+    
+    }
+    .footer-bottom p a {
+        color: rgb(243, 235, 235);
+        
+    }
+    .footer-bottom p a :hover{
+        color: #272727;
+
+    }
+   body{
+       background: #fdfdfd;
+   }
+    
+    nav {
+        background-color: #272727;
+    }
+    
+        form{ 
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family:'poppins'sans-serif;
+        
+     
+               }
+.container{
+width: 900px;
+margin: 0 auto;
+justify-content: center;
+display: flex; }
+      .container .box{
+          text-align: center;
+      }
+      .container .box .icon .fa{
+
+        font-size: 80px;
+        cursor: pointer;
+      }
+      .container  .box .icon h3,
+      .container  .box .icon h4
+      {position: relative;
+        font-weight:400;
+           margin: 0;
+           overflow: hidden;
+padding: 2px 5px;
+font-size: 24px;
+color: transparent;
+      }
+ .container   .box  .icon  h4 {
+          font-weight: 600;
+margin:5px 0 ;
+font-size: 30px;
+
+      }
+      .container  .box .icon h3:before,
+      .container  .box .icon h4:before
+      {content:'' ;
+position: absolute;
+top: 0;
+left: 100%;
+width: 100%;
+height: 100%;
+transition: 1s;
+background: #00bcd4;
+      }
+      .container  .box .icon h4:before{
+left: initial;
+right: 100%;
+background: #9c27b0;
+      }
+ .container .box .fa:hover  ~ h3:before
+      {
+left: -100%;
+transition-delay: 0.333s;
+ }
+ .container  .box  .fa:hover ~ h4:before{
+    left: initial;
+    right: -100%;
+    transition-delay: 0.333s;
+    
+ }
+
+ .container .box .fa:hover  ~ h3,
+ .container .box .fa:hover  ~ h4{
+
+color: #000;
+ }
+ @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+p{
+   text-align: center;
+ font-family: cursive;
+ font-size: 50px;
+}
+h2{
+
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+
+    
+}
+mark{
+color: rgb(36, 93, 248);
+background-color: transparent;
+
+}
+header{
+    background: rgb(36, 36, 36);
+}
+.logo1{
+width: 50px;
+margin-left: 200px;
+
+
+}
+.logo2{
+    width: 130px;
+    margin-left: 200px;}
